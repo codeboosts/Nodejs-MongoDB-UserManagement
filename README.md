@@ -10,7 +10,12 @@
 
 ## Description
 
-[Blogpost](https://github.com/zeshan-tech/blogpost) is BE blog app which includes User Management | Post CRUD | comments for posts
+
+[Node Mongodb UserManagement](https://github.com/codeboosts/node-mysql-user-management): Secure & Efficient Starter <br>
+Kickstart your NestJS project with robust user management, built-in email OTP authentication and fully user management, and adherence to best practices. This comprehensive starter template provides a solid foundation to simplify development and ensure security.
+
+
+<!-- [Blogpost](https://github.com/zeshan-tech/blogpost) is BE robust app for  which includes fully User Management and aut -->
 
 
 ## Requirements
