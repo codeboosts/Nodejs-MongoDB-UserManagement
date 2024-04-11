@@ -11,17 +11,15 @@
 ## Description
 
 
-[Node Mongodb UserManagement](https://github.com/codeboosts/node-mysql-user-management): Secure & Efficient Starter <br>
-Kickstart your NestJS project with robust user management, built-in email OTP authentication and fully user management, and adherence to best practices. This comprehensive starter template provides a solid foundation to simplify development and ensure security.
-
-
-<!-- [Blogpost](https://github.com/zeshan-tech/blogpost) is BE robust app for  which includes fully User Management and aut -->
+[Node Mongodb UserManagement](https://github.com/codeboosts/nodejs-mongodb-usermanagement): Secure & Efficient Starter <br>
+Kickstart your Nodejs project with robust user management, built-in email OTP authentication and fully user management, and adherence to best practices. This comprehensive starter template provides a solid foundation to simplify development and ensure security.
 
 
 ## Requirements
 Before running this project, ensure you have the following requirements:
 - <a href="http://nodejs.org" target="_blank">Node.js</a> 18.x.x or later
 - <a href="https://www.mongodb.com/" target="_blank">Mongo DB</a>
+- <a href="https://redis.io/" target="_blank">Redis</a>
 - <a href="https://yarnpkg.com/" target="_blank">Yarn (pkg manager)</a>
 
 
@@ -35,14 +33,10 @@ yarn install
 
 ## Running the app
 ```bash
-# development
-$ yarn run start
-# watch mode
-$ yarn run start:dev
+# development & watch
+$ yarn dev
 # build
-$ yarn run start:build
-# production mode
-$ yarn run start:prod
+$ yarn build
 ```
 
 
@@ -101,44 +95,10 @@ User Management
  $ *PUT* /user/change-email
 ```
 
-
-Post Management
-```bash
-# Create post
- $ *POST* /post
-# Delete post
- $ *DELETE* /post/:postId
-# post get by id
- $ *GET* /post/:postId
-# post get by id
- $ *GET* /post/by-user-id/:userId
-# Update post
- $ *PUT* /post/:post
-# Get all posts
- $ *GET* /post
-```
-
-
-Comment Management
-```bash
-# Get comments by post id
- $ *GET* /comment/:postId
-# Create comment
- $ *POST* /comment
-# Get specific comment replies
- $ *GET* /comment/replies/:commentId
-# Update comment
- $ *PUT* /comment/:commentId
-# Get all comments
- $ *GET* /comment
-```
-
-
-
 ## Author
 
 - Author - [Zeshan Shakil](https://zeshantech.netlify.app)
 
 ## License
 
-Quillpad is [MIT licensed](LICENSE).
+Nodejs MongoDB UserManagement is [MIT licensed](LICENSE).
